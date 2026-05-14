@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Model Weights (Too large for GitHub)
+*.pth
+*.pth.tar
+
+# Datasets
+data/
+OARENet-main/
+OARENet/
+DeepGlobe/
+
+# Outputs and Logs
+outputs/
+graphs/
+predictions/
+hybrid_results/
+training_logs.csv
+training_logs_cpu.csv
+results_table.txt
+*.png
+*.jpg
